@@ -1,0 +1,449 @@
+/* estilo header-menu*/
+
+body {
+	margin:0;
+}
+
+
+a.anchor:active{
+
+}
+.anchor1{
+  padding-top: 60px;
+
+}
+
+.anchor2{
+  padding-top: 60px;
+}
+
+.anchor3{
+  padding-top: 60px;
+}
+
+.anchor4{
+  padding-top: 60px;
+}
+
+.anchor5{
+  padding-top: 60px;
+}
+
+
+.site-header{
+	background-color:white;
+	display:flex;
+}
+
+
+.logo-wrapper {
+	flex-grow:1;
+	flex-basis:20%; 
+}
+
+.logo-wrapper a {
+	display:flex;
+	justify-content:center;
+	padding:10px;
+  width: 50%;
+}
+
+nav {
+  z-index: 9999;
+  width: 100%;
+  background-color: white;
+	flex-grow:2;
+	flex-basis:66.66%;
+	display:flex;
+  justify-content:center;
+  font-family: 'DK Lemon Yellow Sun', cursive;
+  position: fixed;
+}
+
+.item-menu{
+	 display: flex;
+}
+
+.item-menu a{
+ font-size:22px;
+ color: black;
+ text-decoration: none;
+ padding:30px 10px 0px 10px;
+ display: flex;
+
+}
+
+.item-menu a:hover, .item-menu a.active {
+	text-decoration: underline;
+}
+
+
+/* video */
+video{
+  margin-top: 91px;
+}
+
+
+/* política hacker */
+
+.politica-hacker{
+  display: flex
+}
+
+h1 {
+ font-family: 'DK Lemon Yellow Sun', cursive;
+ font-size: 80px;
+ text-align:left; 
+ margin:30px 0px 0px 70px;
+ text-decoration: underline;
+}
+
+.content{
+  display: flex;
+}
+
+.caixa1{
+  margin-top: -45px;
+  margin-left: 70px;
+  position: absolute;
+
+}
+
+.traco1{
+  width: 465px;
+  height: 11px;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -5px;
+}
+
+.texto1{
+  width: 452px;
+  margin-top:83px; 
+  margin-left: 120px;
+  font-family: 'Source Sans Pro Light', cursive;
+  font-size: 26px;
+  line-height:29px;
+  position: absolute;
+}
+
+.tira1{
+font-family: 'DK Lemon Yellow Sun', cursive;
+margin-left: 750px;
+margin-top: 45px;
+}
+
+
+span.carta-clic{
+
+  font-size:25px;
+  font-family: 'DK Lemon Yellow Sun', cursive;
+}
+
+.carta{
+  margin-top: 30px;
+  font-family: 'DK Lemon Yellow Sun', cursive;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 48px;
+  color: black;
+  height: 170px;
+}
+
+.carta:hover{
+  margin-top: 30px;
+  font-family: 'DK Lemon Yellow Sun', cursive;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+  height: 170px;
+}
+/* crenças e valores */
+
+.content1{
+  text-align: center;
+
+}
+
+.content1 p{
+  font-family: 'Source Sans Pro Light';
+}
+
+.icons-valor1{
+  display:inline-block;
+  vertical-align: top;
+  margin: 30px 150px 10px 0px;
+  width: 304px;
+}
+
+.icons-valor{
+  display:inline-block;
+  vertical-align: top;
+  margin: 30px 0px 10px 0px;
+  width: 304px;
+}
+
+h2.valor{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+/* tecnologias */
+
+.content2{
+text-align: center;
+}
+
+.content2 p{
+  text-align: left;
+  font-family: 'Source Sans Pro Light';
+}
+
+h2{
+ font-family: 'DK Lemon Yellow Sun', cursive;
+ font-size: 80px;
+ text-align: center;
+ text-decoration: underline;
+}
+
+h3{
+  font-family: 'DK Lemon Yellow Sun', cursive;
+  font-size: 45px;
+  text-decoration:underline;
+  margin-top: 10px;
+  margin-bottom:5px;
+}
+
+.icons-tec{
+  display:inline-block;
+  vertical-align: top;
+  margin: 20px 30px 10px 0px;
+  width: 304px;
+}
+
+.icon{
+position: relative;
+}
+
+/* quem é o markun */
+
+
+.content3{
+  text-align: center;
+}
+
+.pedro{
+  display:flex;
+  justify-content:center;
+  margin-bottom: 30px;
+}
+
+.bio{
+   font-family: 'Source Sans Pro Light';
+   font-size: 20px;
+   margin-left: 300px;
+   margin-right: 300px;
+}
+
+/* galeria de videos */
+
+.title-vid{
+  margin: 40px;
+}
+
+.vid{
+  display: inline-block;
+  position: relative;
+  width: 390px;
+  height: 383px;
+  background: center center no-repeat;
+  padding: 0.4em;
+  vertical-align: middle;
+  background-size: auto;
+}
+
+.thumb1 {
+  background-image: url("../img/vid1.png");
+}
+
+.thumb2 {
+  background-image: url("../img/vid2.png");
+}
+
+.thumb3 {
+  background-image: url("../img/vid3.png");
+}
+
+.thumb4 {
+  background-image: url("../img/vid4.png");
+}
+
+.thumb5 {
+  background-image: url("../img/vid5.png");
+}
+
+.thumb6 {
+  background-image: url("../img/vid6.png");
+}
+
+/* projetos */
+
+.title-proj {
+  margin: 40px;
+}
+
+.proj{
+  display: inline-block;
+  position: relative;
+  width: 280px;
+  height: 282px;
+  background: center center no-repeat;
+  padding: 0.4em;
+  vertical-align: middle;
+  background-size: auto;
+  margin-bottom: 30px;
+}
+
+.hovertext {
+  font-family: 'DK Lemon Yellow Sun', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 85%;
+  margin: auto;
+  background-color: rgba(0,0,0,0.8);
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 3em;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hovertext:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.thumb7 {
+  background-image: url("../img/projetos/projetos1.png");
+}
+
+.thumb8 {
+  background-image: url("../img/projetos/projetos2.png");
+}
+
+.thumb9 {
+  background-image: url("../img/projetos/projetos3.png");
+}
+
+.thumb10 {
+  background-image: url("../img/projetos/projetos4.png");
+}
+
+.thumb11 {
+  background-image: url("../img/projetos/projetos5.png");
+}
+
+.thumb12 {
+  background-image: url("../img/projetos/projetos6.png");
+}
+
+.thumb13 {
+  background-image: url("../img/projetos/projetos7.png");
+}
+
+.thumb14 {
+  background-image: url("../img/projetos/projetos8.png");
+}
+
+.round{
+  border-radius: 200px;
+}
+
+/* cola junto */
+
+
+
+.colajunto{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#E3D46D;
+  width: 100%;
+  height: 360px;
+}
+
+p.chamada {
+margin: 50px;
+text-align: center;
+line-height: 80px;
+font-family: 'DK Lemon Yellow Sun', cursive;
+font-size: 25px;
+}
+
+.input {
+  text-decoration: none;
+  margin:30px;
+  padding: 30px 50px 30px 50px;
+  background-color: #70B370;
+  font-family:'DK Lemon Yellow Sun', cursive;
+  color: #000000;
+  font-size: 35px;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.input:hover {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: underline;
+  border-color:#000000;
+}
+
+.input:focus {
+  outline: none;
+}
+
+
+/* footer */
+
+.footer {
+
+  font-family: 'DK Lemon Yellow Sun', cursive; 
+  background-color: black;
+  width: auto;
+  height:auto;
+  margin: 0;
+  padding: 15px 50px 50px 50px;
+  box-sizing: none;
+}
+
+.social-media{
+}
+
+.footer h4{
+ color: white;
+ font-size: 25px;
+ margin: 30px 0px 10px 10px;
+
+}
+
+.rodape{
+  float: right;
+  color: #FFFFFF;
+  width: 500px;
+  margin: auto;
+  letter-spacing:1px;
+
+}
